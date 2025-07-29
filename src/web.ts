@@ -111,7 +111,7 @@ export interface ReactNativeWebAdapterOptions {
 
 export function createWebFirebaseAdapter<S extends FirebaseConfigSchema>(
   schema: S,
-  options?: ReactNativeWebAdapterOptions
+  options?: Partial<ReactNativeWebAdapterOptions>
 ): RemoteConfigAdapter<GetValuesTypeFromConfigSchema<S>> {
   const opts: ReactNativeWebAdapterOptions = {
     app: options?.app,

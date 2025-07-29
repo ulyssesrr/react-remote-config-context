@@ -110,7 +110,7 @@ export function createReactNativeFirebaseAdapter<
   S extends FirebaseConfigSchema,
 >(
   schema: S,
-  options?: ReactNativeFirebaseAdapterOptions
+  options?: Partial<ReactNativeFirebaseAdapterOptions>
 ): RemoteConfigAdapter<GetValuesTypeFromConfigSchema<S>> {
   const opts: ReactNativeFirebaseAdapterOptions = {
     app: options?.app,
