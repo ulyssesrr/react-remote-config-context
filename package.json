@@ -1,6 +1,6 @@
 {
   "name": "react-remote-config-context",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight React/React Native library that provides a typed, schema-validated interface to Firebase Remote Config through React Context.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
